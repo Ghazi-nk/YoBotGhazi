@@ -1,0 +1,31 @@
+{
+  "Results": [
+    {
+      "Target": "example-app:latest",
+      "Vulnerabilities": [
+        {
+          "Title": "Outdated OpenSSL version",
+          "Severity": "HIGH",
+          "CVSS": {
+            "bitnami": {
+              "V3Score": 7.5
+            }
+          },
+          "CweIDs": ["CWE-119"],
+          "References": ["https://security-tracker.example.com/openssl"]
+        },
+        {
+          "Title": "Hardcoded credentials in source code",
+          "Severity": "CRITICAL",
+          "CVSS": {
+            "bitnami": {
+              "V3Score": 9.8
+            }
+          },
+          "CweIDs": ["CWE-798"],
+          "References": ["https://security-tracker.example.com/hardcoded-creds"]
+        }
+      ]
+    }
+  ]
+}
